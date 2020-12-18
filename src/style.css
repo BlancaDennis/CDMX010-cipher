@@ -1,0 +1,106 @@
+/* Este es un comentario en CSS */
+
+/* este es un selector de etiqueta, cuando no lleva nada delante, dentro de HTML tienes una etiqueta que se llama body y por eso puedes editarla como tal */
+body { 
+    margin: 0;
+    padding: 0;
+    background: #000000;
+  }
+  
+  /* este es un selector de clase, lo diferencias pq lleva un punto, dentro de HTML tienes una div que dentro le pusiste una clase */
+  
+  .box{
+    width: 600px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(156, 84, 84, 0);
+    text-align: center;
+  }
+  
+  .btonContenedor{
+    display: flex;
+    background: rgba(16, 84, 84, 0);
+    
+  }
+  
+  .bton{
+    font-size: 1.4rem;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    padding:1rem;
+    width: 10rem;
+    text-align: center;
+    border: 0.1rem solid #45e724;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color:#6BA63C;
+    background-color: rgb(17, 17, 17);
+    margin: auto;
+  }
+  
+  
+  
+  h1{
+    font-size: 4.4rem;
+    color: #6BA63C;
+    margin-bottom: 5rem;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+  
+  }
+  
+  h2{
+    font-size: 2rem;
+    color: #6BA63C;
+    margin-bottom: 5rem;
+    font-family: 'Big Shoulders Stencil Text';
+    font-weight: 500;
+  }
+  
+  h3{
+    font-size: 1rem;
+    color: #6BA63C;
+    margin-bottom: 0.8rem;
+    font-family: 'Big Shoulders Stencil Text';
+    font-weight: 500;
+  }
+  
+  /* este es un selector de id, lo diferencias pq lleva un #, dentro de HTML tienes una id al que nombraste como lo de aqui */
+  
+  #mensajeParaCifrar, #mensajeYaCifrado, #mensajeParaDescifrar, #mensajeYaDescifrado {
+    border: 0;
+    background: black;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid #45e724;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+  }
+  
+  #btnCifrar, #btnDescifrar{
+   font-size: 1.4rem;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    padding:0.4rem;
+    width: 6rem;
+    text-align: center;
+    border: 0.1rem solid #45e724;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color:#6BA63C;
+    background-color: rgb(17, 17, 17);
+    
+  }
+  
+  #offsetNumero, #offsetNumeroD{
+    width: 40px;
+    height: 20px;
+    background-color: rgba(17, 17, 17);
+    padding-left: 40px;
+    color: white;
+  }
+  

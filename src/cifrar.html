@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cipher Holmes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+
+    
+
+<div class= "box"  method="post">
+    
+    <h2>Bienvenido, agente. Aqui podrás cifrar los mensajes que necesites</h2>
+
+    <!--Corresponde esto a ir de texto normal a cifrar CIFRAR-->
+    <textarea type = "text" placeholder="Escribe el mensaje a cifrar" id="mensajeParaCifrar" onkeyup="mayusFun()"></textarea>
+
+    <h3> Inserte número de cifrado</h3>
+    <input type = "number" id = offsetNumero min="0" max="99">
+
+    <script>
+    function mayusFun() {
+    var x = document.getElementById("mensajeParaCifrar");
+    x.value = x.value.toUpperCase();
+    }
+    </script> 
+      <br></br>
+    <button id="btnCifrar">Cifrar</button>
+      
+      <h3> Mensaje cifrado</h3>
+    <textarea type = "text" id= "mensajeYaCifrado"></textarea>
+    
+</div>
+
+    <script type="module" src="cipher.js"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
