@@ -11,6 +11,8 @@
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
 * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 * [9. Criterios a considerar](#9-Criterios-a-considerar)
+* [10. Cipher Holmes](#10-Cipher-Holmes)
+
 
 ***
 
@@ -339,3 +341,43 @@ Esta sección está para ayudarte a llevar una guia de lo que vas completando.
 * Cifra/descifra minúsculas
 * Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * Permite usar un `offset` negativo.
+
+
+
+## 10. Cipher Holmes 🕵🏻
+##Desarrollo de proyecto Cifrado César
+###Blanca Dennis López López
+### 
+###   
+_____________________________________________________
+
+
+####Definición del producto
+#####Temática: 
+Elemento web que complementa el uso de libro infantil con temática de detectives.
+#####Quiénes son los principales usuarios del producto. 
+Niños de 9 a 15 años de edad, que estén interesados en cifrar mensajes, acceder a la interactividad del libro de detectives. 
+#####Cuáles son los objetivos de estos usuarios en relación con tu producto. 
+Al ser parte de un libro complementa el desarrollo del juego y de la historia de detectives a través de diferentes medios, en este caso, plataformas. Se requerirá la participación activa del público y cuyos diferentes fragmentos y elementos deben complementarse para ofrecer una visión de entretenimiento en conjunto.
+#####Cómo crees que el producto que estás creando está resolviendo sus problemas.
+Esta herramienta será un elemento transmedia de un libro infantil que complementará el uso físico del libro con un codificador web, lo que les permitirá descubrir una historia, posteriormente podrán usarlo para cifrar códigos o mensajes con sus amigos, generando así un espacio de juego distinto a lo ya existente. 
+
+
+
+
+####Interfaz de usuario (UI)
+##### Tipografía y colores
+Ambos elementos se unieron para crear el ambiente de secretismo y espias en la era web. 
+
+##### Prototipos de baja fidelidad.
+[![Prototipo de baja fidelidad](Prototipo de baja fidelidad "Prototipo de baja fidelidad")](https://drive.google.com/file/d/1ia-06iLa9A_GdMea1KUNC81QHOQBWLBz/view?usp=sharing "Prototipo de baja fidelidad")
+##### Prototipo digital
+[![Pantalla bienvenida Cipher Holmes](Pantalla bienvenida Cipher Holmes "Pantalla bienvenida Cipher Holmes")](https://drive.google.com/file/d/1IS4b93lBcc4pb6SnNOOD-odnrOB4nfKR/view?usp=sharing "Pantalla bienvenida Cipher Holmes")
+[![Pantalla de Cifrado Cipher Holmes](Pantalla de Cifrado Cipher Holmes "Pantalla de Cifrado Cipher Holmes")](https://drive.google.com/file/d/1GhE2ow7h-JXtpJKMnhciwp0giqC13o58/view?usp=sharing "Pantalla de Cifrado Cipher Holmes")
+[![Pantalla de Descifrado Cipher Holmes](Pantalla de Descifrado Cipher Holmes "Pantalla de Descifrado Cipher Holmes")](https://drive.google.com/file/d/1-MTF6n1EYzoxigFrMEBNPEv3qJxulrhv/view?usp=sharing "Pantalla de Descifrado Cipher Holmes")
+
+##### Funcionalidad y ejecución
+El siguiente gif muestra una prueba del cifrado y descifrado dentro del ejercicio. 
+Usando la frase "HOLA LABORATORIA" con un offset 12. 
+![Gif funcionalidad de Cipher Holmes]http://g.recordit.co/5CUFQ1NkfG.gif)
+
